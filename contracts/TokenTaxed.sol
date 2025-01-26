@@ -104,4 +104,10 @@ contract TokenTaxed is ERC20, Ownable {
         emit SetNoTaxRecipientAddr(msg.sender, _noTaxRecipientAddr, _value);
     }
 
+    /* Contracts by: Kristian
+     * Any issues and/or suggestions, you may reach me via:
+     * Github: https://github.com/kristianism,
+     * X (Twitter): https://x.com/defimagnate
+    */
+
 }
